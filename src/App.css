@@ -1,0 +1,69 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  background-color: rgb(242, 247, 245);
+
+}
+
+.dropdown-container {
+  margin: 20px;
+}
+
+.content-container {
+  display: flex;
+  height: 80vh;
+}
+
+.model-container {
+  flex: 1;
+  position: relative;
+  border-right: 2px solid #ccc;
+  padding: 10px;
+}
+.model-container .car-heading {
+  /* display: flex; */
+  
+  text-align: center;
+}
+
+
+.chatbot-container {
+  flex: 1;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.customization-buttons {
+  position: absolute;
+  top: 400px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.customization-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.customization-buttons button:hover {
+  background-color: #45a049;
+}
+
+.color-picker {
+  position: absolute;
+  top: 60px; /* Adjusted for better placement */
+  left: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+}
